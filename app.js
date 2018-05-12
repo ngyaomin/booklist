@@ -12,7 +12,7 @@ function UI() {}
 document.getElementById('book-form').addEventListener('submit', function(e) {
   const title = document.getElementById('title').value,
         author = document.getElementById('author').value,
-        isbn = document.getElementById('isbn')
+        isbn = document.getElementById('isbn').value
 
   console.log(title, author, isbn);
 
