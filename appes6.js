@@ -55,6 +55,25 @@ class UI {
   }
 }
 
+// local storage class
+class store {
+  static getBooks() {
+
+  }
+
+  static displayBooks() {
+
+  }
+
+  static addBook() {
+
+  }
+
+  static removeBook() {
+
+  }
+}
+
 // Event Listeners
 document.getElementById('book-form').addEventListener('submit', function(e) {
   // get form values
