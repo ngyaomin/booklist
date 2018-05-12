@@ -84,3 +84,10 @@ document.getElementById('book-form').addEventListener('submit', function(e) {
 
   e.preventDefault();
 });
+
+// event listener for delete
+document.getElementById('book-list').addEventListener('click', function(e) {
+
+  console.log('123');
+  e.preventDefault();
+});
