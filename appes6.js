@@ -58,7 +58,7 @@ class UI {
 // local storage class
 class store {
   static getBooks() {
-
+    
   }
 
   static displayBooks() {
@@ -94,6 +94,9 @@ document.getElementById('book-form').addEventListener('submit', function(e) {
   } else {
     // Add book to List
     ui.addBookToList(book);
+
+    // Add to ls
+    Store.addBook(book);
 
     // show success
     ui.showAlert('Book Added', 'success');
