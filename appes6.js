@@ -23,7 +23,23 @@ class UI {
   }
 
   showAlert(message, className) {
+    // create div
+    const div = document.createElement('div');
+    // Add classes
+    div.className = `alert ${className}`;
+    // Add text
+    div.appendChild(document.createTextNode(message));
 
+    // get parent
+    const container = document.querySelector('.container');
+    const form = document.querySelector('#book-form');
+    // insert alert
+    container.insertBefore(div, form);
+
+    // make alert gone after 3 secs
+    setTimeout(function() {
+      document.querySelector('.alert').remove();
+    }, 3000);
   }
 
   deleteBook(target) {
