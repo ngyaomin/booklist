@@ -56,7 +56,7 @@ class UI {
 }
 
 // local storage class
-class store {
+class Store {
   static getBooks() {
     let books;
     if(localStorage.getItem('books') === null) {
@@ -115,8 +115,6 @@ document.getElementById('book-form').addEventListener('submit', function(e) {
     //clear fields after Submit
     ui.clearFields();
   }
-
-
 
   e.preventDefault();
 });
