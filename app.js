@@ -38,6 +38,11 @@ UI.prototype.showAlert = function(message, className) {
   const form = document.querySelector('#book-form');
   // insert alert
   container.insertBefore(div, form);
+
+  // make alert gone after 3 secs
+  setTimeout(function() {
+    document.querySelector('.alert').remove;
+  }, 3000);
 }
 
 // clear fields
