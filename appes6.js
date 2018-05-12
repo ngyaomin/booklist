@@ -49,6 +49,8 @@ class UI {
   }
 
   clearFields() {
-
+    document.getElementById('title').value = '';
+    document.getElementById('author').value = '';
+    document.getElementById('isbn').value = '';
   }
 }
