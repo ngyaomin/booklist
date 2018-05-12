@@ -32,6 +32,12 @@ UI.prototype.showAlert = function(message, className) {
   div.className = `alert ${className}`;
   // Add text
   div.appendChild(document.createTextNode(message));
+
+  // get parent
+  const container = document.querySelector('container');
+  const form = document.querySelector('#book-form');
+  // insert alert
+  container.insertBefore(div, form);
 }
 
 // clear fields
