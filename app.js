@@ -21,7 +21,7 @@ UI.prototype.addBookToList = function(book) {
     <td><a href="#" class="delete">X</a></td>
   `;
 
-  console.log(row);
+  list.appendChild(row);
 }
 
 // Event Listeners
