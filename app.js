@@ -10,7 +10,9 @@ function UI() {}
 
 // Add Book to list
 UI.prototype.addBookToList = function(book) {
-  console.log(book);
+  const list = document.getElementById('book-list');
+  // create tr element
+  const row = document.createElement('tr');
 }
 
 // Event Listeners
