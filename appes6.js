@@ -7,5 +7,19 @@ class Book {
 }
 
 class UI {
+  addBookToList() {
 
+  }
+
+  showAlert() {
+
+  }
+
+  deleteBook() {
+
+  }
+
+  clearFields() {
+    
+  }
 }
