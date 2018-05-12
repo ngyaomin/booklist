@@ -41,7 +41,7 @@ UI.prototype.showAlert = function(message, className) {
 
   // make alert gone after 3 secs
   setTimeout(function() {
-    document.querySelector('.alert').remove;
+    document.querySelector('.alert').remove();
   }, 3000);
 }
 
