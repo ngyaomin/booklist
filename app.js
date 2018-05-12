@@ -6,3 +6,4 @@ function Book(title, author, isbn) {
 }
 
 // UI Constructor
+function UI() {}
